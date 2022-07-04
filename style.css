@@ -1,0 +1,62 @@
+/*these are selectors*/
+body{
+	background-color: pink;
+}
+h1, p{
+	text-align: center;
+}
+img{
+	width: 300px;
+	margin: 10px;
+}
+img:hover{
+	width: 350px;
+}
+nav{
+	text-align: center;
+	padding-top: 15px;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background-color: white;
+	height: 50px;
+	margin: 5px;
+}
+footer{
+	background-color: black;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/*these are classes*/
+.footer{
+	margin-top: auto;
+}
+.c1{
+	float: left;
+	display: inline-block;
+	padding-left: 5%;
+	color: white;
+}
+.c2{
+	display: inline-block;
+	padding-left: 30%;
+	color: white;
+}
+.c3{
+	float: right;
+	display: inline-block;
+	padding-right: 5%;
+	color: white;
+}
+.wraper{
+	height: 590px;
+	border: 10px dotted red;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100px;
+}
